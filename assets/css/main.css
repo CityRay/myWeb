@@ -9,6 +9,10 @@
 .nav li{
 	display: inline;
 }
+.nav .container{
+	padding-top: 18px;
+	padding-bottom: 14px;
+}
 
 .jumbotron{
 	background:#181015 url(../imgs/bg.jpg) no-repeat;
