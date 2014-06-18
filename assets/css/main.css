@@ -50,7 +50,9 @@
 }
 
 .jumbotron .btn { 
-	margin-bottom:10px;}
+	margin-bottom:10px;
+
+	}
 .jumbotron .btn-default { 
 	text-shadow: none; 
 	background:transparent; 
@@ -98,4 +100,10 @@
 
 .mainarea2 a {
 	color: #00b0ff;
+}
+
+@media (max-width: 360px){
+	.jumbotron .btn { 
+		display:none;
+	}
 }
