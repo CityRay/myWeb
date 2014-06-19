@@ -1,3 +1,7 @@
+body{
+	font-family: 'Shift', sans-serif;
+}
+
 .nav a{
 	color: #5a5a5a;
 	font-size: 11px;
@@ -84,9 +88,17 @@
 
 .mainarea h3 {
 	font-family: 'Shift', sans-serif;
+	/*
 	font-size: 18px;
 	font-weight: bold;
+	*/
+
 }
+
+.mainarea small{
+	font-size: 14px;
+}
+
 
 .mainarea a {
 	color: #00b0ff;
@@ -98,8 +110,14 @@
 
 .mainarea2 h3 {
 	font-family: 'Shift', sans-serif;
+	/*
 	font-size: 18px;
 	font-weight: bold;
+	*/
+}
+
+.mainarea2 small{
+	font-size: 14px;
 }
 
 .mainarea2 a {
