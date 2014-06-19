@@ -132,6 +132,11 @@ body{
 	list-style: none;
 }
 
+.mainarea4 .txtarea{
+	width: 80%;
+	height: 190px;
+}
+
 @media (max-width: 360px){
 	.jumbotron .btn { 
 		display:none;
