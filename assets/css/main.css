@@ -104,6 +104,10 @@ body{
 	color: #00b0ff;
 }
 
+.mainarea li{
+	list-style: none;
+}
+
 .mainarea2{
 	
 }
@@ -122,6 +126,10 @@ body{
 
 .mainarea2 a {
 	color: #00b0ff;
+}
+
+.mainarea2 li{
+	list-style: none;
 }
 
 @media (max-width: 360px){
