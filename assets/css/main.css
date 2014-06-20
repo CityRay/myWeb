@@ -1,17 +1,34 @@
 body{
-	font-family: 'Shift', sans-serif;
+	font-family: Microsoft JhengHei, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .nav a{
 	color: #5a5a5a;
-	font-size: 11px;
-	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;	
 	padding: 14px 10px;
 	text-transform: uppercase;
 }
 
+.nav .myname{
+	font-family: proxima-nova, 'Proxima Nova - 500', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #dd3000;
+}
+
 .nav li{
 	display: inline;
+}
+
+.nav li a{
+	text-decoration: none;
+	color: #3e4248;
+}
+
+.nav li a:hover{
+	color: #dd3000;
 }
 .nav .container{
 	padding-top: 18px;
@@ -33,8 +50,12 @@ body{
 .jumbotron h1{
 	color: #fff;
 	font-size: 48px;
+	line-height: 52px;
+
+	/*
 	font-family: 'Shift', sans-serif;
 	font-weight: bold;
+	*/
 }
 
 .jumbotron p{
@@ -87,12 +108,12 @@ body{
 }
 
 .mainarea h3 {
-	font-family: 'Shift', sans-serif;
+	font-weight: bold;
 	/*
+	font-family: 'Shift', sans-serif;
 	font-size: 18px;
 	font-weight: bold;
-	*/
-
+	*/	
 }
 
 .mainarea small{
@@ -104,8 +125,25 @@ body{
 	color: #00b0ff;
 }
 
+.mainarea a:hover {
+	color: #dd3000;
+}
+
 .mainarea li{
 	list-style: none;
+}
+
+.mainarea .caption{
+	text-align: center;
+}
+
+.mainarea .caption p{
+	color: #747c81;
+}
+
+.mainarea .thumbnails img{
+	padding-top: 20px;
+	width: 180px;
 }
 
 .mainarea2{
@@ -113,8 +151,9 @@ body{
 }
 
 .mainarea2 h3 {
-	font-family: 'Shift', sans-serif;
+	
 	/*
+	font-family: 'Shift', sans-serif;
 	font-size: 18px;
 	font-weight: bold;
 	*/
