@@ -129,6 +129,11 @@ body{
 	color: #dd3000;
 }
 
+.mainarea ul{
+	margin-left: 0;
+	padding-left: 0;
+}
+
 .mainarea li{
 	list-style: none;
 }
@@ -165,6 +170,11 @@ body{
 
 .mainarea2 a {
 	color: #00b0ff;
+}
+
+.mainarea2 ul {
+	margin-left: 0;
+	padding-left: 0;
 }
 
 .mainarea2 li{
