@@ -129,7 +129,7 @@ body{
 
 
 .mainarea a {
-	color: #00b0ff;
+	color: #0080FF;
 }
 
 .mainarea a:hover {
@@ -158,12 +158,12 @@ body{
 	width: 180px;
 }
 
-.mainarea2{
-	
+
+#skills{
+	background-color: #F7F5F4;
 }
 
-.mainarea2 h3 {
-	
+.mainarea2 h3 {	
 	/*
 	font-family: 'Shift', sans-serif;
 	font-size: 18px;
@@ -200,6 +200,21 @@ body{
 	font-weight: bold;
 	color:#0080FF;
 }
+
+#works{
+	text-align: center;
+}
+
+#works .container h3{
+	text-align: center;
+	font-weight: bold;
+}
+
+#works .container .thumbnail img{
+	width: 250px;
+	height: 200px;
+}
+
 
 .mainarea4 .txtarea{
 	width: 80%;
