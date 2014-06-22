@@ -115,7 +115,8 @@ body{
 }
 
 .mainarea h3 {
-
+	font-size: 36px;
+ 	font-size: 2.25rem;
 	/*
 	font-family: 'Shift', sans-serif;
 	font-size: 18px;
@@ -233,8 +234,6 @@ body{
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 36px;
-  font-size: 2.25rem;
   letter-spacing: 1px;
 }
 .section-title a{
