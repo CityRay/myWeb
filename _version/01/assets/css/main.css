@@ -1,57 +1,50 @@
-* {
-	margin: 0;
-	padding: 0;
+body{
 	font-family: Microsoft JhengHei, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-body{
-	
-}
-
-.header{
-	position: fixed;
-	width: 100%;
-	background: #222;
-	z-index: 10;
-}
-
-.header .navbar-brand{
-	font-weight: 900;
-}
-
-.header .navber{
-	border: none;
-}
-
-.navbar-inverse{
-	border:0;
-	margin-bottom: 0;
-}
-
 .nav a{
+	color: #5a5a5a;
+	font-size: 15px;
+	line-height: 20px;	
+	padding: 14px 10px;
 	text-transform: uppercase;
 }
 
-.navbar .navbar-inverse .navbar-header{
-	margin:0;
-	
+.nav .myname{
+	font-family: proxima-nova, 'Proxima Nova - 500', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #dd3000;
 }
 
 .nav li{
 	display: inline;
 }
 
+.nav li a{
+	text-decoration: none;
+	color: #3e4248;
+}
+
+.nav li a:hover{
+	color: #dd3000;
+}
+.nav .container{
+	padding-top: 18px;
+	padding-bottom: 14px;
+}
 
 .jumbotron{
 	background:#181015 url(../imgs/bg.jpg) no-repeat;
 	background-size: cover;
-	height: 550px;
+	height: 500px;
 	text-align: center;
 }
 
 .jumbotron .container{
 	position: relative;
-	top: 120px;
+	top: 80px;
 }
 
 .jumbotron h1{
@@ -66,7 +59,7 @@ body{
 }
 
 .jumbotron p{
-	font-size: 18px;
+	font-size: 20px;
 	color: #fff;
 	
 }
@@ -186,19 +179,6 @@ body{
 
 .mainarea2 li{
 	list-style: none;
-}
-.mainarea2 .thumbnails .thumbnail{
-	text-align: center;
-}
-
-.mainarea2 .thumbnails .thumbnail img{
-	width: 200px;
-}
-
-.mainarea2 .thumbnails .thumbnail p{
-	font-size: 16px;
-	font-weight: bold;
-	color:#0080FF;
 }
 
 .mainarea4 .txtarea{
