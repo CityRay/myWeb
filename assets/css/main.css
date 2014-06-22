@@ -221,6 +221,10 @@ body{
 	height: 190px;
 }
 
+#contact{
+	background-color: #F7F5F4;
+}
+
 @media (max-width: 360px){
 	.jumbotron .btn { 
 		display:none;
