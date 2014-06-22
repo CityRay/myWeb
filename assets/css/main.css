@@ -115,7 +115,7 @@ body{
 }
 
 .mainarea h3 {
-	font-weight: bold;
+
 	/*
 	font-family: 'Shift', sans-serif;
 	font-size: 18px;
@@ -223,6 +223,44 @@ body{
 
 #contact{
 	background-color: #F7F5F4;
+}
+
+.section-title{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  margin: 0px 0 25px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-size: 2.25rem;
+  letter-spacing: 1px;
+}
+.section-title a{
+  color: #333333;
+}
+.section-title span{
+  display: inline-block;
+  position: relative;
+}
+.section-title span:before,
+.section-title span:after{
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: .53em;
+  width: 800%;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.section-title span:before{
+  right: 100%;
+  margin-right: 45px;
+}
+.section-title span:after{
+  left: 100%;
+  margin-left: 45px;
 }
 
 @media (max-width: 360px){
