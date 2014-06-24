@@ -133,6 +133,7 @@ body{
 .mainarea h3 {
 	font-size: 36px;
  	font-size: 2.25rem;
+ 	font-weight: bold;
 	/*
 	font-family: 'Shift', sans-serif;
 	font-size: 18px;
@@ -210,12 +211,17 @@ body{
 
 .mainarea2 .thumbnails .thumbnail img{
 	width: 200px;
+	padding: 20px;
 }
 
 .mainarea2 .thumbnails .thumbnail p{
 	font-size: 16px;
 	font-weight: bold;
 	color:#0080FF;
+}
+
+#skills .container .row p{
+	color: #333333;
 }
 
 #works{
@@ -225,8 +231,7 @@ body{
 #works a{
 	color: #005FBD;
 	text-decoration: none;
-	padding-bottom: 0px;	
-	vertical-align: bottom;
+
 }
 
 #works a:hover{
@@ -257,7 +262,7 @@ body{
   display: block;
   width: 100%;
   overflow: hidden;
-  margin: 0px 0 25px;
+  margin: 0 0 25px 0;
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
@@ -282,11 +287,11 @@ body{
 }
 .section-title span:before{
   right: 100%;
-  margin-right: 45px;
+  margin-right: 25px;
 }
 .section-title span:after{
   left: 100%;
-  margin-left: 45px;
+  margin-left: 25px;
 }
 
 /*footer*/
@@ -336,6 +341,7 @@ body{
 		#footer .copyright a
 		{
 			color: rgba(128,128,128,0.75);
+			text-decoration: none;
 		}
 
 			#footer .copyright a:hover
@@ -361,7 +367,6 @@ body{
 		#footer ul.icons li a
 		{
 			display: inline-block;
-			background: none;
 			width: 2.5em;
 			height: 2.5em;
 			line-height: 2.5em;
@@ -373,7 +378,7 @@ body{
 		
 			#footer ul.icons li a:hover
 			{
-				color: #ef8376;
+				
 			}
 
 #footer ul.menu
