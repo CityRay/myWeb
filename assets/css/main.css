@@ -24,7 +24,7 @@ body{
 	position: fixed;
 	width: 100%;
 	background: #222;
-	opacity: .95;
+	opacity: .93;
 	z-index: 10;
 }
 
@@ -132,9 +132,8 @@ body{
 	
 }
 
-.mainarea h3 {
-	font-size: 36px;
- 	font-size: 2.25rem;
+.mainarea .container .caption h3 {
+	font-size: 28px;
  	font-weight: bold;
 	/*
 	font-family: 'Shift', sans-serif;
@@ -143,12 +142,9 @@ body{
 	*/	
 }
 
-.mainarea small{
-	font-size: 14px;
-}
-
-
 .mainarea a {
+	font-size: 12px;
+	font-weight: bold;
 	color: #005FBD;
 }
 
@@ -169,7 +165,8 @@ body{
 	text-align: center;
 }
 
-.mainarea .caption p{
+.mainarea .container .caption p{
+	font-size: 16px;
 	color: #747c81;
 }
 
@@ -226,6 +223,8 @@ body{
 	color: #333333;
 }
 
+
+/*WORKS CSS*/
 #works{
 	text-align: center;
 }
@@ -241,13 +240,19 @@ body{
 }
 
 #works .container h3{
+	padding-top: 5px;
 	text-align: center;
+	font-size: 26px;
 	font-weight: bold;
 }
 
+#works .container p{
+	font-size: 14px;
+	color: #747c81;
+}
+
 #works .container .thumbnail img{
-	width: 200px;
-	height: 180px;
+	width: 300px;
 	padding: 10px;
 }
 
@@ -261,6 +266,11 @@ body{
 	background-color: #F7F5F4;
 }
 
+#contact .container img{
+	width: 300px;
+}
+
+/*TITLE section*/
 .section-title{
   display: block;
   width: 100%;
@@ -296,6 +306,7 @@ body{
   left: 100%;
   margin-left: 25px;
 }
+/*TITLE section*/
 
 /*footer*/
 #footer{
@@ -381,7 +392,8 @@ body{
 		
 			#footer ul.icons li a:hover
 			{
-				
+				background-color: #3E9EFF;
+				/*#FFFFAA*/
 			}
 
 #footer ul.menu
