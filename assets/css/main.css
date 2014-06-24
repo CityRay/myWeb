@@ -16,8 +16,7 @@ a{
 }
 
 body{
-	background: #EFF0F5;
-	
+	background: #EFF0F5;	
 	font-weight: 300;	
 }
 
@@ -37,21 +36,24 @@ body{
 	border: none;
 }
 
-.navbar-inverse{
+.header .navbar-inverse{
 	border:0;
 	margin-bottom: 0;
 }
 
-.nav a{
+.header #main-nav .nav a{
 	text-transform: uppercase;
+	/*
+	color: #4848;
+	*/
 }
 
-.navbar .navbar-inverse .navbar-header{
+.header .navbar .navbar-inverse .navbar-header{
 	margin:0;
 	
 }
 
-.nav li{
+.header .nav li{
 	display: inline;
 }
 
