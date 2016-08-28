@@ -23,8 +23,8 @@ body{
 .header{
 	position: fixed;
 	width: 100%;
-	background: #222;
-	opacity: .93;
+	background: #FFF;
+	opacity: .9;
 	z-index: 10;
 }
 
@@ -53,26 +53,31 @@ body{
 	
 }
 
+.container .navbar-inverse {
+	background-color: #FFF;
+}
+
 .header .nav li{
 	display: inline;
 }
 
 
 .jumbotron{
-	background:#181015 url(../imgs/bg.jpg) no-repeat;
+	/*background:#070a0a url(../imgs/bg.jpg) no-repeat;*/
+	background:#729a65;
 	background-size: cover;
-	height: 550px;
+	height: 650px;
 	text-align: center;
 }
 
 .jumbotron .container{
 	position: relative;
-	top: 110px;
+	top: 125px;
 }
 
 .jumbotron h1{
 	font-family: Alice, Georgia, serif;
-	color: #333333;
+	color: #f5f5f5;
 	font-size: 48px;
 	line-height: 52px;
 	font-weight: 400;
@@ -85,7 +90,7 @@ body{
 
 .jumbotron p{
 	font-size: 18px;
-	color: #333;	
+	color: #f5f5f5;	
 }
 
 .jumbotron a{
