@@ -76,11 +76,10 @@ body{
 }
 
 .jumbotron h1{
-	font-family: Alice, Georgia, serif;
 	color: #f5f5f5;
 	font-size: 48px;
 	line-height: 52px;
-	font-weight: 400;
+	font-weight: 500;
 
 	/*
 	font-family: 'Shift', sans-serif;
@@ -108,9 +107,9 @@ body{
 }
 
 .jumbotron .btn { 
-	margin-bottom:10px;
+	margin-top: 20px;
+}
 
-	}
 .jumbotron .btn-default { 
 	text-shadow: none; 
 	background:transparent; 
